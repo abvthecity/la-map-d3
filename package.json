@@ -1,0 +1,17 @@
+{
+  "name": "la-map-d3",
+  "version": "1.0.0",
+  "description": "LA tract map using d3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Jiang",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "lodash": "^4.15.0",
+    "topojson": "^1.6.26",
+    "turf": "^3.0.14"
+  }
+}

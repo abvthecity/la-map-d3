@@ -1,0 +1,47 @@
+body {
+  background: rgba(21,26,29,1);
+}
+
+svg {
+  position: absolute;
+  display: block;
+  left: 0; right: 0; top: 0; bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(21,26,29,1);
+  background: -moz-linear-gradient(top, rgba(21,26,29,1) 0%, rgba(57,42,61,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(21,26,29,1)), color-stop(100%, rgba(57,42,61,1)));
+  background: -webkit-linear-gradient(top, rgba(21,26,29,1) 0%, rgba(57,42,61,1) 100%);
+  background: -o-linear-gradient(top, rgba(21,26,29,1) 0%, rgba(57,42,61,1) 100%);
+  background: -ms-linear-gradient(top, rgba(21,26,29,1) 0%, rgba(57,42,61,1) 100%);
+  background: linear-gradient(to bottom, rgba(21,26,29,1) 0%, rgba(57,42,61,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#151a1d', endColorstr='#392a3d', GradientType=0 );
+}
+
+svg path.subunit {
+  fill: transparent;
+  stroke: rgba(255, 255, 255, 0.03);
+  stroke-width: 0.5px;
+  position: relative;
+  z-index: 3;
+}
+
+svg path.subunit:hover {
+  fill: rgba(255, 255, 255, 0.05);
+  /*stroke: #444;
+  stroke-width: 1px;*/
+}
+
+svg .points {
+  position: relative;
+  z-index: 0;
+  pointer-events: none;
+}
+
+svg .points circle {
+  fill: rgba(255, 255, 255, 0.3);
+}
+
+svg path#tract-222700 {
+  /*fill: rgba(255, 0, 0, 0.1);*/
+}
